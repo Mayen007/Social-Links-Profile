@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-!Desktop View[Screenshot of the solution](./assets/images/desktop-view.png)
-!Mobile View[Screenshot of the solution](./assets/images/mobile-view.png)
+![Screenshot of desktop solution](./assets/images/desktop-view.png)
+![Screenshot of mobile solution](./assets/images/mobile-view.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profile-card-links-css-PLRuS1LX_A)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-links-css-PLRuS1LX_A)
 - Live Site URL: [GitHub Pages](https://mayen007.github.io/Social-Links-Profile/)
 
 ## My process
@@ -71,7 +71,7 @@ For future projects, I want to:
 
 ## Author
 
-- Website - [Mayen](https://github.com/Mayen007)
+- Website - [Github Pages](https://github.com/Mayen007)
 - Frontend Mentor - [@Mayen007](https://www.frontendmentor.io/profile/Mayen007)
 
 ## Acknowledgments
