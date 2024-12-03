@@ -9,22 +9,22 @@
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url(./assets/fonts/Inter-Regular.woff2) format('woff2');
+  font-family: 'Inter-Regular';
+  src: url(./assets/fonts/static/Inter-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Inter-Regular';
-  src: url(./assets/fonts/Inter-Regular.woff2) format('woff2');
+  font-family: 'Inter-SemiBold';
+  src: url(./assets/fonts/static/Inter-SemiBold.ttf) format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter-Bold';
-  src: url(./assets/fonts/Inter-Bold.woff2) format('woff2');
+  src: url(./assets/fonts/static/Inter-Bold.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -36,7 +36,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif, 'Inter-Regular';
+  font-family: 'Inter-Regular', sans-serif;
   font-size: var(--paragraph);
   background-color: var(--bg-color-1);
   color: var(--white);
@@ -76,13 +76,13 @@ section {
 
 .avatar-name {
   font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 10px;
+  font-family: 'Inter-Bold', sans-serif;
+  margin-bottom: 0.6rem;
 }
 
 .avatar-location {
-  font-size: 0.9rem;
-  font-weight: 400;
+  font-family: 'Inter-SemiBold', sans-serif;
+  font-size: 0.85rem;
   margin-bottom: 20px;
   color: var(--green);
 }
@@ -90,7 +90,6 @@ section {
 .avatar-description {
   font-size: 0.8rem;
   font-weight: 400;
-  font-style: italic;
 }
 
 .avatar-profiles {
@@ -138,4 +137,5 @@ li {
 
 .attribution a {
   color: var(--green);
+  text-decoration: none;
 }
